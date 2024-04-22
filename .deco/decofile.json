@@ -3214,9 +3214,10 @@
         },
         "products": {
           "props": {
-            "sort": "price:desc",
+            "sort": "",
             "count": 6,
-            "collection": "139"
+            "collection": "139",
+            "query": "camisa"
           },
           "crossSelling": "similars",
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
@@ -3606,5 +3607,12 @@
   },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
+  },
+  "shopify": {
+    "__resolveType": "decohub/apps/shopify.ts",
+    "adminAccessToken": {},
+    "platform": "shopify",
+    "storeName": "gimenesdevstore",
+    "storefrontAccessToken": "27c1ac16fe30a0fb6c5d634eeb63bf81"
   }
 }

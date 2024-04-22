@@ -1605,7 +1605,9 @@
       "loader": {
         "data": {
           "count": 4,
-          "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts"
+          "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts",
+          "searches": [],
+          "products": []
         },
         "__resolveType": "resolved"
       },
@@ -2570,9 +2572,6 @@
     "searchApiKey": "c1db0c388028afd574750a0f3abc911d",
     "__resolveType": "decohub/apps/algolia.ts",
     "applicationId": "3MINZHT36Y"
-  },
-  "brand-assistant": {
-    "__resolveType": "decohub/apps/brand-assistant.ts"
   },
   "files": {
     "__resolveType": "decohub/apps/files.ts"

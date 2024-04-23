@@ -2767,31 +2767,31 @@
         "list": [
           {
             "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/01c01ba9-ac16-4371-82ca-b93d17545f9c",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/48d47888-6ac3-4eb4-8051-5643ed13492d",
             "label": "Your Collection",
             "buttonText": "Explore collection"
           },
           {
             "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/9b80d57d-64b0-4eef-a3cd-fa8daafaae9c",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/32ecc2ba-76ac-4965-b914-c6fb4ede43b9",
             "label": "Your Collection",
             "buttonText": "Explore collection"
           },
           {
             "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/ed4c0eb3-96ab-484f-b293-e91d196a5063",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1",
             "label": "Your Collection",
             "buttonText": "Explore collection"
           },
           {
             "href": "/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b9882ff7-3dbc-43e4-9813-5cec23c012cd",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/b82322f6-73ed-44cb-9c21-d9549c9dbcb1",
             "label": "Your Collection",
             "buttonText": "Explore collection"
           }
         ],
         "header": {
-          "title": "Explore Our Categories"
+          "title": "Explore Our Collections"
         },
         "layout": {
           "categoryCard": {

@@ -49,7 +49,12 @@
         "description": "Easy and Convenient Return Policy"
       }
     ],
-    "__resolveType": "site/sections/Content/Benefits.tsx"
+    "__resolveType": "site/sections/Content/Benefits.tsx",
+    "description": "Check out the benefits",
+    "layout": {
+      "variation": "Simple",
+      "headerAlignment": "center"
+    }
   },
   "Benefits - 02": {
     "title": "Take a look at our benefits ",
@@ -2116,6 +2121,18 @@
     ],
     "__resolveType": "commerce/loaders/product/extensions/listingPage.ts"
   },
+  "Preview /sections/Cards/IconCardsCarousel.tsx": {
+    "__resolveType": "site/sections/Cards/IconCardsCarousel.tsx"
+  },
+  "Preview /sections/NewSection.tsx": {
+    "__resolveType": "site/sections/NewSection.tsx"
+  },
+  "Preview /sections/NewSection2.tsx": {
+    "__resolveType": "site/sections/NewSection2.tsx"
+  },
+  "Preview /sections/Product/ProductShelf.tsx": {
+    "__resolveType": "site/sections/Product/ProductShelf.tsx"
+  },
   "Product Card Layout - 01": {
     "layout": {
       "hide": {},
@@ -2739,7 +2756,7 @@
   },
   "pages-home-c4bcbfb771e9": {
     "name": "Home",
-    "path": "/",
+    "__resolveType": "website/pages/Page.tsx",
     "sections": [
       {
         "__resolveType": "Header - 01"
@@ -2829,13 +2846,19 @@
         },
         "products": {
           "props": {
-            "sort": "",
+            "sort": "price-descending",
             "count": 6,
-            "collection": "139",
-            "query": "camisa"
+            "query": "camisa",
+            "fuzzy": "automatic"
           },
           "crossSelling": "similars",
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+          "__resolveType": "shopify/loaders/ProductList.ts",
+          "filters": {
+            "tags": [],
+            "productTypes": [],
+            "productVendors": [],
+            "variantOptions": []
+          }
         },
         "cardLayout": {
           "layout": {
@@ -3034,7 +3057,7 @@
         "__resolveType": "Footer - 04"
       }
     ],
-    "__resolveType": "website/pages/Page.tsx"
+    "path": "/"
   },
   "pages-offline-b9c52de8c7b3": {
     "name": "Offline",
@@ -3144,6 +3167,13 @@
   "plausible": {
     "__resolveType": "decohub/apps/analytics.ts"
   },
+  "shopify": {
+    "__resolveType": "decohub/apps/shopify.ts",
+    "adminAccessToken": {},
+    "platform": "shopify",
+    "storeName": "gimenesdevstore",
+    "storefrontAccessToken": "27c1ac16fe30a0fb6c5d634eeb63bf81"
+  },
   "site": {
     "seo": {
       "type": "website",
@@ -3222,11 +3252,72 @@
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
   },
-  "shopify": {
-    "__resolveType": "decohub/apps/shopify.ts",
-    "adminAccessToken": {},
-    "platform": "shopify",
-    "storeName": "gimenesdevstore",
-    "storefrontAccessToken": "27c1ac16fe30a0fb6c5d634eeb63bf81"
+  "Urban Chic": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "colorScheme": "light",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mode": "light",
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Poiret One"
+        }
+      ]
+    },
+    "mainColors": {
+      "base-100": "#F8F9FD",
+      "primary": "#3141AC",
+      "secondary": "#BADFED",
+      "tertiary": "#DECD8F",
+      "neutral": "#FBF5F1",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    }
+  },
+  "pages-Brasileiro%20Teste-9898": {
+    "name": "Brasileiro Teste",
+    "path": "/brasileiro-teste",
+    "sections": {
+      "__resolveType": "website/flags/multivariate.ts",
+      "variants": [
+        {
+          "value": [
+            {
+              "__resolveType": "Carousel - 01"
+            }
+          ],
+          "rule": {
+            "__resolveType": "website/matchers/never.ts"
+          }
+        },
+        {
+          "value": [
+            {
+              "__resolveType": "Benefits - 01"
+            }
+          ],
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
+    },
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

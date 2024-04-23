@@ -437,64 +437,6 @@
     "description": "Your Questions Answered",
     "__resolveType": "site/sections/Content/Faq.tsx"
   },
-  "Fashion theme": {
-    "font": {
-      "fonts": [
-        {
-          "family": "Poppins",
-          "variations": [
-            {
-              "weight": "400"
-            },
-            {
-              "weight": "600"
-            },
-            {
-              "weight": "700"
-            }
-          ]
-        }
-      ],
-      "__resolveType": "website/loaders/fonts/googleFonts.ts"
-    },
-    "fonts": [
-      {
-        "fontFamily": "Poppins"
-      }
-    ],
-    "mainColors": {
-      "neutral": "#f9f9f9",
-      "primary": "#384c53",
-      "warning": "#e08e00",
-      "base-100": "#ffffff",
-      "tertiary": "#ffeaaf",
-      "secondary": "#ffeaaf"
-    },
-    "buttonStyle": {
-      "--border-btn": "1px",
-      "--rounded-btn": "0.2rem",
-      "--animation-btn": "0.25s",
-      "--btn-text-case": "normal-case",
-      "--btn-focus-scale": "0.95"
-    },
-    "colorScheme": "light",
-    "otherStyles": {
-      "--tab-border": "1px",
-      "--tab-radius": "0.5rem",
-      "--rounded-box": "1rem",
-      "--rounded-badge": "1.9rem",
-      "--animation-input": "0.2s"
-    },
-    "__resolveType": "site/sections/Theme/Theme.tsx",
-    "complementaryColors": {
-      "primary": {
-        "primary-content": "#ffffff"
-      },
-      "base-200": "#ffffff",
-      "base-300": "#ffffff",
-      "neutral-content": "#f9f9f9"
-    }
-  },
   "Footer - 01": {
     "logo": {
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
@@ -1530,63 +1472,6 @@
       ]
     }
   },
-  "Fun": {
-    "fonts": {
-      "fontFamily": "'Comic Sans MS'"
-    },
-    "mainColors": {
-      "primary": "#ff7598",
-      "base-100": "#ffee00",
-      "tertiary": "#c07ecc",
-      "secondary": "#75d1f0"
-    },
-    "buttonStyle": {
-      "--border-btn": "1px",
-      "--rounded-btn": "0.8rem",
-      "--animation-btn": "0.25s",
-      "--btn-text-case": "lowercase",
-      "--btn-focus-scale": "0.95"
-    },
-    "colorScheme": "light",
-    "otherStyles": {
-      "--tab-border": "1px",
-      "--tab-radius": "0.5rem",
-      "--rounded-box": "1rem",
-      "--rounded-badge": "1.9rem",
-      "--animation-input": "0.2s"
-    },
-    "__resolveType": "site/sections/Theme/Theme.tsx",
-    "complementaryColors": {
-      "primary": {
-        "primary-content": "#000000"
-      },
-      "tertiary": {
-        "tertiary-content": "#000000"
-      },
-      "secondary": {
-        "secondary-content": "#000000"
-      }
-    }
-  },
-  "Halloween": {
-    "fonts": {
-      "fontFamily": "'Courier New'"
-    },
-    "mainColors": {
-      "primary": "#f28c18",
-      "base-100": "#212121",
-      "tertiary": "#51a800",
-      "secondary": "#6d3a9c"
-    },
-    "buttonStyle": {
-      "--border-btn": "3px",
-      "--rounded-btn": "2rem",
-      "--animation-btn": "0.25s",
-      "--btn-text-case": "uppercase",
-      "--btn-focus-scale": "1.05"
-    },
-    "__resolveType": "site/sections/Theme/Theme.tsx"
-  },
   "Header - 01": {
     "cart": {
       "freeShippingObjectiveQuantity": 600
@@ -1745,36 +1630,6 @@
     ],
     "description": "Discover the collections of the season",
     "__resolveType": "site/sections/Images/ImageGallery.tsx"
-  },
-  "Lemonade": {
-    "fonts": {
-      "fontFamily": "'Albert Sans'"
-    },
-    "mainColors": {
-      "primary": "#519903",
-      "base-100": "#ffffff",
-      "tertiary": "#F7F9CA",
-      "secondary": "#E9E92E"
-    },
-    "buttonStyle": {
-      "--border-btn": "1px",
-      "--rounded-btn": "0.2rem",
-      "--animation-btn": "0.25s",
-      "--btn-text-case": "normal-case",
-      "--btn-focus-scale": "0.95"
-    },
-    "__resolveType": "site/sections/Theme/Theme.tsx",
-    "complementaryColors": {
-      "primary": {
-        "primary-content": "#deebd1"
-      },
-      "tertiary": {
-        "tertiary-content": "#2f2f28"
-      },
-      "secondary": {
-        "secondary-content": "#2e2d14"
-      }
-    }
   },
   "LinkTree - 01": {
     "links": {
@@ -1943,40 +1798,6 @@
     },
     "description": "Take a look at our Partner Agencies",
     "__resolveType": "site/sections/Content/Logos.tsx"
-  },
-  "Luxury": {
-    "fonts": {
-      "fontFamily": "'Georgia'"
-    },
-    "mainColors": {
-      "primary": "#000000",
-      "base-100": "#09090b",
-      "tertiary": "#513448",
-      "secondary": "#152747"
-    },
-    "buttonStyle": {
-      "--border-btn": "1px",
-      "--rounded-btn": "0.2rem",
-      "--animation-btn": "0.25s",
-      "--btn-text-case": "normal-case",
-      "--btn-focus-scale": "0.95"
-    },
-    "colorScheme": "light",
-    "otherStyles": {
-      "--tab-border": "1px",
-      "--tab-radius": "0.5rem",
-      "--rounded-box": "1rem",
-      "--rounded-badge": "1.9rem",
-      "--animation-input": "0.2s"
-    },
-    "__resolveType": "site/sections/Theme/Theme.tsx",
-    "complementaryColors": {
-      "base": {
-        "base-200": "#171618",
-        "base-300": "#2e2d2f",
-        "base-content": "#dca54c"
-      }
-    }
   },
   "Mobile": {
     "mobile": true,
@@ -3186,7 +3007,7 @@
       "descriptionTemplate": "%s | Deco.cx"
     },
     "theme": {
-      "__resolveType": "Fashion theme"
+      "__resolveType": "Neutral"
     },
     "global": [
       {
@@ -3319,5 +3140,178 @@
       ]
     },
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "Sunset Glow": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "colorScheme": "light",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mode": "light",
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Special Elite"
+        }
+      ]
+    },
+    "mainColors": {
+      "base-100": "#FFF7D2",
+      "primary": "#A73C5A",
+      "secondary": "#FFBC55",
+      "tertiary": "#FF9900",
+      "neutral": "#4F3000",
+      "success": "#008060",
+      "warning": "#FFC453",
+      "error": "#D82C0D",
+      "info": "#2E72D2"
+    }
+  },
+  "Serene Coastline": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.8rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "colorScheme": "light",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mode": "light",
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Shadows Into Light"
+        }
+      ]
+    },
+    "mainColors": {
+      "base-100": "#cceae3",
+      "primary": "#00767F",
+      "secondary": "#9BD8E7",
+      "tertiary": "#004247",
+      "neutral": "#E2E2E2",
+      "success": "#008060",
+      "warning": "#ffc453",
+      "error": "#d82c0d",
+      "info": "#2e72d2"
+    }
+  },
+  "Groovy Vibes": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s"
+    },
+    "colorScheme": "light",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mode": "light",
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Shrikhand"
+        }
+      ]
+    },
+    "mainColors": {
+      "base-100": "#FDE5BE",
+      "primary": "#FF6502",
+      "secondary": "#FEC902",
+      "tertiary": "#FF91B2",
+      "neutral": "#9934A6",
+      "info": "#2e72d2",
+      "error": "#d82c0d",
+      "warning": "#ffc453",
+      "success": "#008060"
+    }
+  },
+  "Neutral": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "0.95",
+      "--animation-btn": "0.25s",
+      "--btn-text-case": "normal-case"
+    },
+    "colorScheme": "light",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mode": "dark",
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "family": "Poppins",
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "600"
+            },
+            {
+              "weight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    "fonts": [
+      {
+        "fontFamily": "Poppins"
+      }
+    ],
+    "mainColors": {
+      "neutral": "#f9f9f9",
+      "primary": "#384c53",
+      "warning": "#e08e00",
+      "base-100": "#ffffff",
+      "tertiary": "#ffeaaf",
+      "secondary": "#ffeaaf"
+    },
+    "complementaryColors": {
+      "primary": {
+        "primary-content": "#ffffff"
+      },
+      "base-200": "#ffffff",
+      "base-300": "#ffffff",
+      "neutral-content": "#f9f9f9"
+    }
   }
 }

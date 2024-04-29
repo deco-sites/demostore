@@ -10,10 +10,10 @@ import {
 import { Signal } from "@preact/signals";
 import { FunctionCalls } from "./FunctionCalls.tsx";
 import { useState } from "preact/hooks";
-import Icon from "$store/components/ui/Icon.tsx";
-import AutosizeTextarea from "$store/components/shop-assistant/autosize-textarea/AutosizeTextarea.tsx";
+import Icon from "../../ui/Icon.tsx";
+import AutosizeTextarea from "../../shop-assistant/autosize-textarea/AutosizeTextarea.tsx";
 import { useFileUpload } from "apps/ai-assistants/hooks/useFileUpload.ts";
-import { useChatContext } from "$store/components/shop-assistant/ChatContext.tsx";
+import { useChatContext } from "../../shop-assistant/ChatContext.tsx";
 
 const AUDIO_MAX_DURATION = 89000; // 89 seconds
 const MAX_IMAGE_SIZE = "4194304"; // Maximum file size in bytes (4 MB)

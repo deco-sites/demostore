@@ -8,7 +8,7 @@ import {
 import { useEffect, useState } from "preact/hooks";
 import { ChatStep } from "./ChatComponents/ChatStep.tsx";
 import Image from "apps/website/components/Image.tsx";
-import Icon from "$store/components/ui/Icon.tsx";
+import Icon from "../ui/Icon.tsx";
 
 type ChatProps = {
   messageList: Signal<Message[]>;

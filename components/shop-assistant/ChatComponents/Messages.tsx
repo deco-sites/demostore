@@ -7,7 +7,7 @@ import {
   MessageContentText,
   UserMsg,
 } from "../types/shop-assistant.ts";
-import { useChatContext } from "$store/components/shop-assistant/ChatContext.tsx";
+import { useChatContext } from "../../shop-assistant/ChatContext.tsx";
 
 type MessagesProps = {
   messageList: Message[];

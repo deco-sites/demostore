@@ -8,11 +8,11 @@ import {
 } from "../types/shop-assistant.ts";
 import { Product as ProductType } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
-import { useOffer } from "$store/sdk/useOffer.ts";
-import AddToCartButton from "$store/islands/AddToCartButton/vtex.tsx";
+import { useOffer } from "../../../sdk/useOffer.ts";
+import AddToCartButton from "../../../islands/AddToCartButton/vtex.tsx";
 import { useState } from "preact/hooks";
-import Icon from "$store/components/ui/Icon.tsx";
-import { sendEvent, SendEventOnView } from "$store/sdk/analytics.tsx";
+import Icon from "../../ui/Icon.tsx";
+import { sendEvent, SendEventOnView } from "../../../sdk/analytics.tsx";
 import { useId } from "preact/compat";
 import { AnalyticsItem } from "apps/commerce/types.ts";
 import { mapProductCategoryToAnalyticsCategories } from "apps/commerce/utils/productToAnalyticsItem.ts";

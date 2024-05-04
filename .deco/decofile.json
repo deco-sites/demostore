@@ -2051,6 +2051,19 @@
   "Preview /sections/Product/ProductShelf.tsx": {
     "__resolveType": "site/sections/Product/ProductShelf.tsx"
   },
+  "Preview site/sections/Chat/Chat.tsx": {
+    "__resolveType": "site/sections/Chat/Chat.tsx",
+    "mainColors": {
+      "primary": "#468b60",
+      "secondary": "#ffffff",
+      "tertiary": "#000",
+      "logo": "#2c5b06"
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/da23e1f6-c8f7-4cf1-976d-63dd0c216b60",
+      "alt": "deco logo"
+    }
+  },
   "Product Card Layout - 01": {
     "layout": {
       "hide": {},
@@ -2612,6 +2625,29 @@
   "Workflows": {
     "__resolveType": "decohub/apps/workflows.ts"
   },
+  "ai-assistants": {
+    "__resolveType": "decohub/apps/ai-assistants.ts",
+    "assistants": [
+      {
+        "prompts": [],
+        "availableFunctions": [],
+        "model": "gpt-4-0613",
+        "name": "deco",
+        "welcomeMessage": "Oi! sou o deco, tô aqui para te ajudar com suas compras! O que gostaria de ver hoje?"
+      }
+    ],
+    "assistantAwsProps": {
+      "assistantBucketRegion": {},
+      "accessKeyId": {},
+      "secretAccessKey": {},
+      "assistantBucketName": {}
+    },
+    "assistantId": "asst_vwWNeBUSmBlKe88mXq7qlU7f",
+    "apiKey": {
+      "__resolveType": "website/loaders/secret.ts",
+      "encrypted": "a9c8b9a34957819af9036134c94631502061419ae305cd21b5a63ed232e3cb18581f3484e40a4296518daf3006c96a5c9d7a0162f33c1d92cec05aca8f82903f"
+    }
+  },
   "algolia": {
     "adminApiKey": {
       "name": "ALGOLIA_ADMIN_API_KEY",
@@ -2624,6 +2660,9 @@
   },
   "blog": {
     "__resolveType": "decohub/apps/blog.ts"
+  },
+  "brand-assistant": {
+    "__resolveType": "decohub/apps/brand-assistant.ts"
   },
   "files": {
     "__resolveType": "decohub/apps/files.ts"
@@ -3180,6 +3219,7 @@
   "pages-home-c4bcbfb771e9": {
     "name": "Home",
     "__resolveType": "website/pages/Page.tsx",
+    "path": "/",
     "sections": [
       {
         "__resolveType": "Header - 01"
@@ -3523,8 +3563,7 @@
       {
         "__resolveType": "Footer - 04"
       }
-    ],
-    "path": "/"
+    ]
   },
   "pages-offline-b9c52de8c7b3": {
     "name": "Offline",
@@ -3665,9 +3704,6 @@
       },
       {
         "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
-      },
-      {
-        "__resolveType": "Preview site/sections/Chat/Chat.tsx"
       }
     ],
     "routes": [
@@ -3727,44 +3763,5 @@
   },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
-  },
-  "brand-assistant": {
-    "__resolveType": "decohub/apps/brand-assistant.ts"
-  },
-  "ai-assistants": {
-    "__resolveType": "decohub/apps/ai-assistants.ts",
-    "assistants": [
-      {
-        "prompts": [],
-        "availableFunctions": [],
-        "model": "gpt-4-0613",
-        "name": "deco",
-        "welcomeMessage": "Oi! sou o deco, tô aqui para te ajudar com suas compras! O que gostaria de ver hoje?"
-      }
-    ],
-    "assistantAwsProps": {
-      "assistantBucketRegion": {},
-      "accessKeyId": {},
-      "secretAccessKey": {},
-      "assistantBucketName": {}
-    },
-    "assistantId": "asst_vwWNeBUSmBlKe88mXq7qlU7f",
-    "apiKey": {
-      "__resolveType": "website/loaders/secret.ts",
-      "encrypted": "a9c8b9a34957819af9036134c94631502061419ae305cd21b5a63ed232e3cb18581f3484e40a4296518daf3006c96a5c9d7a0162f33c1d92cec05aca8f82903f"
-    }
-  },
-  "Preview site/sections/Chat/Chat.tsx": {
-    "__resolveType": "site/sections/Chat/Chat.tsx",
-    "mainColors": {
-      "primary": "#468b60",
-      "secondary": "#ffffff",
-      "tertiary": "#000",
-      "logo": "#2c5b06"
-    },
-    "logo": {
-      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/da23e1f6-c8f7-4cf1-976d-63dd0c216b60",
-      "alt": "deco logo"
-    }
   }
 }

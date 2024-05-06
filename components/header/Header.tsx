@@ -14,6 +14,7 @@ export interface Logo {
   alt: string;
   width?: number;
   height?: number;
+  description?: string;
 }
 export interface Buttons {
   hideSearchButton?: boolean;

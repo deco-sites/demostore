@@ -1,4 +1,3 @@
-
 interface BlogPost {
   title: string;
   excerpt: string;
@@ -14,7 +13,7 @@ interface Props {
   blogPosts?: BlogPost[];
 }
 
-export default function BlogPostSection({ 
+export default function BlogPostSection({
   blogPosts = [
     {
       title: "Item of the Summer",
@@ -37,22 +36,22 @@ export default function BlogPostSection({
       date: "December 5, 2023",
       image: "https://via.placeholder.com/150",
     },
-  ]
+  ],
 }: Props) {
   return (
     <section class="bg-gray-100 p-4 sm:p-8">
       <h2 class="text-3xl text-center font-semibold mb-6">Blogposts</h2>
-      
+
       <div class="flex flex-col sm:flex-row items-stretch gap-4">
         {blogPosts.map((post, index) => (
-          <article 
+          <article
             key={index}
             class="bg-white p-4 rounded-md shadow-md w-full sm:w-1/3"
           >
-            <img 
-              src={post.image} 
-              alt={post.title} 
-              class="w-full h-40 object-cover mb-4" 
+            <img
+              src={post.image}
+              alt={post.title}
+              class="w-full h-40 object-cover mb-4"
             />
             <h3 class="text-lg font-semibold mb-2">{post.title}</h3>
             <p class="text-sm mb-2">{post.excerpt}</p>
@@ -62,5 +61,5 @@ export default function BlogPostSection({
         ))}
       </div>
     </section>
-  )
+  );
 }

@@ -1,4 +1,3 @@
-
 interface FancyNewsletterProps {
   title?: string;
   image?: string;
@@ -10,7 +9,7 @@ export default function FancyNewsletter({
   title = "Weekly Newsletter",
   image = "green-newsletter-image.jpg",
   description = "Subscribe to our weekly newsletter for the latest updates",
-  date = "January 1, 2024"
+  date = "January 1, 2024",
 }: FancyNewsletterProps) {
   return (
     <div class="bg-green-200 p-4 rounded-md shadow-md">

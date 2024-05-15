@@ -47,19 +47,21 @@ import * as $$$$$$35 from "./sections/Miscellaneous/CookieConsent.tsx";
 import * as $$$$$$36 from "./sections/Miscellaneous/Slide.tsx";
 import * as $$$$$$37 from "./sections/NewSection.tsx";
 import * as $$$$$$38 from "./sections/NewSection2.tsx";
-import * as $$$$$$39 from "./sections/Newsletter/Newsletter.tsx";
-import * as $$$$$$40 from "./sections/Product/ImageGalleryFrontBack.tsx";
-import * as $$$$$$41 from "./sections/Product/NotFound.tsx";
-import * as $$$$$$42 from "./sections/Product/NotFoundChallenge.tsx";
-import * as $$$$$$43 from "./sections/Product/ProductDetails.tsx";
-import * as $$$$$$44 from "./sections/Product/ProductShelf.tsx";
-import * as $$$$$$45 from "./sections/Product/ProductShelfTabbed.tsx";
-import * as $$$$$$46 from "./sections/Product/SearchResult.tsx";
-import * as $$$$$$47 from "./sections/Product/ShelfWithImage.tsx";
-import * as $$$$$$48 from "./sections/Product/Wishlist.tsx";
-import * as $$$$$$49 from "./sections/Social/InstagramPosts.tsx";
-import * as $$$$$$50 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$51 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$39 from "./sections/NewSection3.tsx";
+import * as $$$$$$40 from "./sections/Newsletter/Newsletter.tsx";
+import * as $$$$$$41 from "./sections/Olympikus.tsx";
+import * as $$$$$$42 from "./sections/Product/ImageGalleryFrontBack.tsx";
+import * as $$$$$$43 from "./sections/Product/NotFound.tsx";
+import * as $$$$$$44 from "./sections/Product/NotFoundChallenge.tsx";
+import * as $$$$$$45 from "./sections/Product/ProductDetails.tsx";
+import * as $$$$$$46 from "./sections/Product/ProductShelf.tsx";
+import * as $$$$$$47 from "./sections/Product/ProductShelfTabbed.tsx";
+import * as $$$$$$48 from "./sections/Product/SearchResult.tsx";
+import * as $$$$$$49 from "./sections/Product/ShelfWithImage.tsx";
+import * as $$$$$$50 from "./sections/Product/Wishlist.tsx";
+import * as $$$$$$51 from "./sections/Social/InstagramPosts.tsx";
+import * as $$$$$$52 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$53 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
@@ -108,19 +110,21 @@ const manifest = {
     "site/sections/Miscellaneous/Slide.tsx": $$$$$$36,
     "site/sections/NewSection.tsx": $$$$$$37,
     "site/sections/NewSection2.tsx": $$$$$$38,
-    "site/sections/Newsletter/Newsletter.tsx": $$$$$$39,
-    "site/sections/Product/ImageGalleryFrontBack.tsx": $$$$$$40,
-    "site/sections/Product/NotFound.tsx": $$$$$$41,
-    "site/sections/Product/NotFoundChallenge.tsx": $$$$$$42,
-    "site/sections/Product/ProductDetails.tsx": $$$$$$43,
-    "site/sections/Product/ProductShelf.tsx": $$$$$$44,
-    "site/sections/Product/ProductShelfTabbed.tsx": $$$$$$45,
-    "site/sections/Product/SearchResult.tsx": $$$$$$46,
-    "site/sections/Product/ShelfWithImage.tsx": $$$$$$47,
-    "site/sections/Product/Wishlist.tsx": $$$$$$48,
-    "site/sections/Social/InstagramPosts.tsx": $$$$$$49,
-    "site/sections/Social/WhatsApp.tsx": $$$$$$50,
-    "site/sections/Theme/Theme.tsx": $$$$$$51,
+    "site/sections/NewSection3.tsx": $$$$$$39,
+    "site/sections/Newsletter/Newsletter.tsx": $$$$$$40,
+    "site/sections/Olympikus.tsx": $$$$$$41,
+    "site/sections/Product/ImageGalleryFrontBack.tsx": $$$$$$42,
+    "site/sections/Product/NotFound.tsx": $$$$$$43,
+    "site/sections/Product/NotFoundChallenge.tsx": $$$$$$44,
+    "site/sections/Product/ProductDetails.tsx": $$$$$$45,
+    "site/sections/Product/ProductShelf.tsx": $$$$$$46,
+    "site/sections/Product/ProductShelfTabbed.tsx": $$$$$$47,
+    "site/sections/Product/SearchResult.tsx": $$$$$$48,
+    "site/sections/Product/ShelfWithImage.tsx": $$$$$$49,
+    "site/sections/Product/Wishlist.tsx": $$$$$$50,
+    "site/sections/Social/InstagramPosts.tsx": $$$$$$51,
+    "site/sections/Social/WhatsApp.tsx": $$$$$$52,
+    "site/sections/Theme/Theme.tsx": $$$$$$53,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

@@ -7,6 +7,6 @@ interface Props {
 
 export default function Section(props: Props) {
   return <div class="w-full h-40 flex justify-center items-center">
-    <h2 class="text-5xl">Temperature: {props.celsius}</h2>
+    <h2 class="text-5xl">Your Current Temperature is: {props.celsius}</h2>
   </div>
 }

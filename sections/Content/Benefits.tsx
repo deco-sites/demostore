@@ -71,7 +71,7 @@ export default function Benefits(
     return (
       <div
         class={`${
-          reverse ? "bg-green-600 text-green-100 p-4 lg:px-8 lg:py-4" : ""
+          reverse ? "bg-blue-600 text-blue-100 p-4 lg:px-8 lg:py-4" : ""
         } flex gap-4 ${
           benefitLayout == "piledup" ? "flex-col items-center text-center" : ""
         } ${
@@ -86,7 +86,7 @@ export default function Benefits(
           <div class="flex-none">
             <Icon
               id={benefit.icon}
-              class={`${reverse ? "text-green-100" : "text-green-600"}`} 
+              class={`${reverse ? "text-blue-100" : "text-blue-600"}`} 
               width={36}
               height={36}
               strokeWidth={0.01}
@@ -98,7 +98,7 @@ export default function Benefits(
           {benefit.label && (
             <div
               class={`text-base lg:text-xl leading-7 ${
-                reverse ? "text-green-100" : "text-green-600"
+                reverse ? "text-blue-100" : "text-blue-600"
               }`}
             >
               {benefit.label}
@@ -107,7 +107,7 @@ export default function Benefits(
           {benefit.description && (
             <p
               class={`text-sm leading-5 ${
-                reverse ? "text-green-100" : "text-neutral"  
+                reverse ? "text-blue-100" : "text-neutral"  
               } ${benefitLayout == "piledup" ? "hidden lg:block" : ""}`}
             >
               {benefit.description}
@@ -142,7 +142,7 @@ export default function Benefits(
             alignment={layout?.headerAlignment}
           />
           <div class="w-full flex justify-center">
-            <div class="grid grid-cols-2 gap-4 w-full py-6 px-4 border border-green-600 lg:gap-8 lg:grid-flow-col lg:auto-cols-fr lg:p-10">
+            <div class="grid grid-cols-2 gap-4 w-full py-6 px-4 border border-blue-600 lg:gap-8 lg:grid-flow-col lg:auto-cols-fr lg:p-10">
               {listOfBenefits}
             </div>
           </div>

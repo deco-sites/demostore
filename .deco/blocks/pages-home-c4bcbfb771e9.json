@@ -18,6 +18,111 @@
             "__resolveType": "Header - 01"
           },
           {
+            "__resolveType": "site/sections/Category/CategoryList.tsx",
+            "list": [
+              {
+                "href": "/masculino",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5a8edfec-400f-421f-b436-4ce23d2b13e7",
+                "label": "Vestidos",
+                "description": "Amazing"
+              },
+              {
+                "href": "/feminino",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7363da7a-8530-4e19-8b76-6f92c4da3f1e",
+                "label": "Bags",
+                "description": "Bags"
+              },
+              {
+                "href": "/",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/33755494-9104-410e-9e48-256aef7fc113",
+                "label": "Shoes",
+                "description": "New deals"
+              },
+              {
+                "href": "/",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/2d507523-6f5a-4bb5-98d5-d9c944b35845",
+                "label": "Jackets",
+                "description": "New colors"
+              },
+              {
+                "href": "/",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/907b5510-d4a0-4d75-b2bf-c0c9e9b0ba68",
+                "label": "Jeans",
+                "description": "Amazing"
+              },
+              {
+                "href": "/",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/40eb7c93-59a7-4963-9917-32508c56e4cc",
+                "label": "Shorts",
+                "description": "Summer"
+              }
+            ],
+            "header": {
+              "title": "Categories",
+              "description": "Take a look at our categories"
+            },
+            "layout": {
+              "categoryCard": {
+                "textPosition": "top",
+                "textAlignment": "center"
+              },
+              "headerAlignment": "center"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Images/ShoppableBanner.tsx",
+            "link": {
+              "href": "/feminino",
+              "text": "Explore collection",
+              "layout": {
+                "position": "justify-center"
+              }
+            },
+            "text": {
+              "layout": {
+                "position": "text-center"
+              },
+              "content": "Your description"
+            },
+            "title": {
+              "layout": {
+                "position": "justify-center"
+              },
+              "content": "Awesome collection "
+            },
+            "pins": [
+              {
+                "link": "/feminino",
+                "label": "Glasses",
+                "mobile": {
+                  "x": 12,
+                  "y": 59
+                },
+                "desktop": {
+                  "x": 7,
+                  "y": 60
+                }
+              },
+              {
+                "link": "/feminino",
+                "label": "Bag",
+                "mobile": {
+                  "x": 30,
+                  "y": 30
+                },
+                "desktop": {
+                  "x": 30,
+                  "y": 30
+                }
+              }
+            ],
+            "image": {
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/23be366c-fa07-4520-9338-387ce77acabb",
+              "altText": "a",
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b79dcfc0-45b8-40c4-a3ba-310e66995529"
+            }
+          },
+          {
             "__resolveType": "site/sections/Images/Carousel.tsx",
             "dots": true,
             "arrows": false,
@@ -31,7 +136,7 @@
                   "subTitle": "Visit our site and start building now"
                 },
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/bff28b01-87ac-4993-9709-f8feaec3b274"
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/f5b9d104-7d7c-4da4-b471-e62785a123d4"
               },
               {
                 "alt": "Masculino",
@@ -93,59 +198,6 @@
             ]
           },
           {
-            "__resolveType": "site/sections/Images/ShoppableBanner.tsx",
-            "link": {
-              "href": "/feminino",
-              "text": "Explore collection",
-              "layout": {
-                "position": "justify-center"
-              }
-            },
-            "text": {
-              "layout": {
-                "position": "text-center"
-              },
-              "content": "Your description"
-            },
-            "title": {
-              "layout": {
-                "position": "justify-center"
-              },
-              "content": "Awesome collection "
-            },
-            "pins": [
-              {
-                "link": "/feminino",
-                "label": "Glasses",
-                "mobile": {
-                  "x": 12,
-                  "y": 59
-                },
-                "desktop": {
-                  "x": 7,
-                  "y": 60
-                }
-              },
-              {
-                "link": "/feminino",
-                "label": "Bag",
-                "mobile": {
-                  "x": 30,
-                  "y": 30
-                },
-                "desktop": {
-                  "x": 30,
-                  "y": 30
-                }
-              }
-            ],
-            "image": {
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/23be366c-fa07-4520-9338-387ce77acabb",
-              "altText": "a",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b79dcfc0-45b8-40c4-a3ba-310e66995529"
-            }
-          },
-          {
             "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
             "content": [
               {
@@ -156,10 +208,10 @@
           },
           {
             "__resolveType": "site/sections/Product/ProductShelf.tsx",
-            "title": "Básico",
             "layout": {
               "showArrows": true
             },
+            "title": "Básico",
             "cardLayout": {
               "layout": {
                 "hide": {
@@ -305,7 +357,7 @@
                   "props": {
                     "sort": "price:desc",
                     "count": 8,
-                    "query": "camisa"
+                    "query": "casaco"
                   },
                   "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
                 }
@@ -372,7 +424,11 @@
           }
         ],
         "rule": {
-          "__resolveType": "My New Experiment"
+          "__resolveType": "website/matchers/location.ts",
+          "includeLocations": [
+            {}
+          ],
+          "excludeLocations": []
         }
       },
       {

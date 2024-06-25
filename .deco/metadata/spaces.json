@@ -1,1 +1,4115 @@
-{"list":[{"id":"dashboard","name":"Site Home","pinned":true,"icon":"home","layout":[],"tabs":{"dashboard::Home::home::Home::%7B%7D":{"name":"Home","icon":"home","render":"function","viewId":"Home","id":"dashboard::Home::home::Home::%7B%7D","state":{"__signal":null}}},"category":"Highlights"},{"id":"pages","name":"Pages","pinned":true,"icon":"files","layout":[],"tabs":{"pages::List::list::List::%7B%7D":{"name":"List","icon":"list","render":"function","viewId":"List","id":"pages::List::list::List::%7B%7D","state":{"__signal":null}}},"category":"Content"},{"id":"sections","name":"Sections","pinned":true,"icon":"block","layout":[],"tabs":{"sections::List::list::List::%7B%7D":{"name":"List","icon":"list","render":"function","viewId":"List","id":"sections::List::list::List::%7B%7D","state":{"__signal":null}}},"category":"Content"},{"id":"collections","name":"Blog","pinned":true,"icon":"article","layout":[{"w":6,"h":24},{"w":18,"h":24,"x":6}],"tabs":{"collections::Blog::article::Blog::%7B%7D":{"name":"Blog","icon":"article","render":"function","viewId":"Blog","id":"collections::Blog::article::Blog::%7B%7D","state":{"__signal":null}},"collections::Blog%20Items::article::Blog%20Items::%7B%7D":{"name":"Blog Items","icon":"article","render":"function","viewId":"Blog Items","id":"collections::Blog%20Items::article::Blog%20Items::%7B%7D","state":{"__signal":null}}},"category":"Content"},{"id":"releases","name":"Releases","pinned":true,"icon":"rocket","layout":[],"tabs":{"releases::releases::rocket::releases::%7B%7D":{"name":"releases","icon":"rocket","render":"function","viewId":"releases","id":"releases::releases::rocket::releases::%7B%7D","state":{"__signal":null}}},"category":"Content"},{"id":"site-seo","name":"SEO","pinned":true,"icon":"world-search","layout":[],"tabs":{"site-seo::Partial%20Form::pencil::Partial%20Form::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22seo%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fsite.json%5C%22%7D%22%7D":{"name":"Partial Form","icon":"pencil","render":"function","viewId":"Partial Form","viewProps":{"spaceId":"{\"path\":[\"seo\"],\"filepath\":\"/.deco/blocks/site.json\"}"},"id":"site-seo::Partial%20Form::pencil::Partial%20Form::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22seo%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fsite.json%5C%22%7D%22%7D","state":{"__signal":null}},"site-seo::Preview::world::Preview::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fsite.json%22%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","viewProps":{"spaceId":"/.deco/blocks/site.json"},"id":"site-seo::Preview::world::Preview::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fsite.json%22%7D","state":{"__signal":null}}},"category":"Advanced"},{"id":"themes","name":"Themes","pinned":true,"icon":"palette","layout":[],"tabs":{"themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D":{"name":"Theme Selector","icon":"palette","render":"function","viewId":"Theme Selector","id":"themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D","state":{"__signal":null}},"themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D":{"name":"Theme Viewer","icon":"palette","accepts":"function","render":"function","viewId":"Theme Viewer","id":"themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D","state":{"__signal":null}},"themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D":{"name":"Theme Preview","icon":"palette","accepts":"function","render":"function","viewId":"Theme Preview","id":"themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D","state":{"__signal":null}}},"category":"Advanced"},{"id":"redirects","name":"Redirects","pinned":true,"icon":"redirect","layout":[],"tabs":{"redirects::List::list::List::%7B%7D":{"name":"List","icon":"list","render":"function","viewId":"List","id":"redirects::List::list::List::%7B%7D","state":{"__signal":null}}},"category":"Advanced"},{"id":"loaders","name":"Loaders","pinned":true,"icon":"block","layout":[],"tabs":{"loaders::List::list::List::%7B%7D":{"name":"List","icon":"list","render":"function","viewId":"List","id":"loaders::List::list::List::%7B%7D","state":{"__signal":null}}},"category":"Advanced"},{"id":"actions","name":"Actions","pinned":true,"icon":"block","layout":[],"tabs":{"actions::List::list::List::%7B%7D":{"name":"List","icon":"list","render":"function","viewId":"List","id":"actions::List::list::List::%7B%7D","state":{"__signal":null}}},"category":"Advanced"},{"id":"segments","name":"Segments","pinned":true,"icon":"users","layout":[],"tabs":{"segments::segments::experiment::segments::%7B%7D":{"name":"segments","icon":"experiment","render":"function","viewId":"segments","id":"segments::segments::experiment::segments::%7B%7D","state":{"__signal":null}}},"category":"Advanced"},{"id":"apps","name":"Apps","pinned":true,"icon":"apps","layout":[],"tabs":{"apps::Apps::apps::Apps::%7B%7D":{"name":"Apps","icon":"apps","render":"function","viewId":"Apps","id":"apps::Apps::apps::Apps::%7B%7D","state":{"__signal":null}}},"category":"Advanced"},{"id":"analytics","name":"Analytics","pinned":true,"icon":"chart-bar","layout":[],"tabs":{"analytics::analytics::layout-grid::analytics::%7B%7D":{"name":"analytics","icon":"layout-grid","render":"function","viewId":"analytics","id":"analytics::analytics::layout-grid::analytics::%7B%7D","state":{"__signal":null}}},"tags":[],"category":"Management"},{"id":"logs","name":"Logs","pinned":true,"icon":"news","layout":[],"tabs":{"logs::logs::news::logs::%7B%7D":{"name":"logs","icon":"news","render":"function","viewId":"logs","id":"logs::logs::news::logs::%7B%7D","state":{"__signal":null}}},"tags":[],"category":"Management"},{"id":"settings","name":"Settings","pinned":true,"icon":"adjustments-horizontal","layout":[],"tabs":{"settings::settings::adjustments-horizontal::settings::%7B%7D":{"name":"settings","icon":"adjustments-horizontal","render":"function","viewId":"settings","id":"settings::settings::adjustments-horizontal::settings::%7B%7D","state":{"__signal":null}},"settings::domains::adjustments-horizontal::domains::%7B%7D":{"name":"domains","icon":"adjustments-horizontal","render":"function","viewId":"domains","id":"settings::domains::adjustments-horizontal::domains::%7B%7D","state":{"__signal":null}}},"category":"Management"},{"id":"assets","name":"Assets","pinned":true,"icon":"photo","layout":[],"tabs":{"assets::Assets::photo::Assets::%7B%7D":{"name":"Assets","icon":"photo","render":"function","viewId":"Assets","id":"assets::Assets::photo::Assets::%7B%7D","state":{"__signal":null}}},"category":"Content"},{"id":"Publish","name":"Publish","pinned":false,"icon":"rocket","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"stack","width":100,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"Publish::Environment::rocket::Environment::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket::Environment::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"Publish::Environment::rocket::Environment::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"Publish::Environment::rocket::Environment::%7B%7D":{"name":"Environment","icon":"rocket","render":"function","viewId":"Environment","id":"Publish::Environment::rocket::Environment::%7B%7D","state":{"__signal":null}}}},{"id":"extensability","name":"Extensability","pinned":true,"icon":"adjustments-horizontal","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"stack","width":100,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"extensability::Extensability::list::Extensability::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-extensability::Extensability::list::Extensability::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"extensability::Extensability::list::Extensability::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"extensability::Extensability::list::Extensability::%7B%7D":{"name":"Extensability","icon":"list","render":"function","viewId":"Extensability","id":"extensability::Extensability::list::Extensability::%7B%7D","state":{"__signal":null}}},"category":"Extensability"},{"id":"/.deco/blocks/pages-Demo%2520Temperatura-151908.json","name":"Demo Temperatura","pinned":false,"icon":"file","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"stack","width":30.27156549520767,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":69.72843450479233,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D":{"name":"Properties","icon":"list","accepts":"function","render":"function","viewId":"Properties","id":"%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}}}},{"id":"/.deco/blocks/Preview%20%2Fsections%2FMiscellaneous%2FCampaignTimer.tsx.json","name":"Preview /sections/Miscellaneous/CampaignTimer.tsx","pinned":false,"icon":"package","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"title":"","type":"stack","isClosable":true,"reorderEnabled":true,"width":50,"activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Preview::world::Preview::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Preview::world::Preview::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Preview::world::Preview::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":50,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Code::code::Code::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Code::code::Code::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Code::code::Code::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Code::code::Code::%7B%7D":{"name":"Code","icon":"code","accepts":"function","render":"function","viewId":"Code","id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FMiscellaneous%252FCampaignTimer.tsx.json::Code::code::Code::%7B%7D","state":{"__signal":"error"}}}},{"id":"/.deco/blocks/Preview%20%2Fsections%2FWeather.tsx.json","name":"Preview /sections/Weather.tsx","pinned":false,"icon":"package","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"stack","width":33.333333333333336,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":33.333333333333336,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":33.33333333333333,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Properties::list::Properties::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Properties::list::Properties::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Properties::list::Properties::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D":{"name":"Code","icon":"code","accepts":"function","render":"function","viewId":"Code","id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Properties::list::Properties::%7B%7D":{"name":"Properties","icon":"list","accepts":"function","render":"function","viewId":"Properties","id":"%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FWeather.tsx.json::Properties::list::Properties::%7B%7D","state":{"__signal":null}}}},{"id":"/.deco/blocks/Preview%20site%2Fsections%2FWeather.tsx.json","name":"Preview site/sections/Weather.tsx","pinned":false,"icon":"package","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"stack","width":50,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":50,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D":{"name":"Code","icon":"code","accepts":"function","render":"function","viewId":"Code","id":"%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FWeather.tsx.json::Code::code::Code::%7B%7D","state":{"__signal":null}}}},{"id":"/.deco/blocks/pages-home-c4bcbfb771e9.json","name":"Home","pinned":false,"icon":"file","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"stack","width":29.331046312178387,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":70.66895368782161,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D":{"name":"Properties","icon":"list","accepts":"function","render":"function","viewId":"Properties","id":"%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D","state":{"__signal":null,"value":null}},"%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}}}},{"id":"collections:8f960431015f","name":"Blog / Posts / 8f960431015f","pinned":false,"icon":"article","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"stack","width":50,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D","title":"<div class=\"contents text-base-700\" id=\"header-collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D\" />","type":"component","componentName":"component","componentState":{"id":"collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":50,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D","title":"<div class=\"contents text-base-700\" id=\"header-collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D\" />","type":"component","componentName":"component","componentState":{"id":"collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D"},"isClosable":true,"reorderEnabled":true}]}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D":{"name":"Blog / Posts / 8f960431015f","icon":"article","render":"function","viewId":"Edit Blog Item","viewProps":{"spaceId":"{\"path\":[\"post\"],\"filepath\":\"/.deco/blocks/collections%2Fblog%2Fposts%2F8f960431015f.json\"}"},"id":"collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D","state":{"__signal":null}},"collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D":{"name":"Blog Preview","icon":"article","render":"function","viewId":"Blog Preview","viewProps":{"spaceId":"{\"blockId\":\"collections/blog/posts/8f960431015f\"}"},"id":"collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D","state":{"__signal":null}}}},{"id":"/.deco/blocks/Benefits%20-%2001.json","name":"Benefits - 01","pinned":false,"icon":"package","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"stack","isClosable":true,"reorderEnabled":true,"title":"","width":33.333333333333336,"activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":33.333333333333336,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":33.333333333333336,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D":{"name":"Code","icon":"code","accepts":"function","render":"function","viewId":"Code","id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D","state":{"__signal":"error"}},"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D":{"name":"AI Assistant","icon":"sparkle","accepts":"function","render":"function","viewId":"AI Assistant","id":"%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D","state":{"__signal":null}}}},{"id":"experiments","name":"Experiments","pinned":true,"icon":"experiment","layout":[],"tabs":{"experiments::experiments::experiment::experiments::%7B%7D":{"name":"experiments","icon":"experiment","render":"function","viewId":"experiments","id":"experiments::experiments::experiment::experiments::%7B%7D","state":{"__signal":null}}},"tags":[{"label":"BETA","color":"positive"}],"category":"Advanced"},{"id":"/.deco/blocks/site.json","name":"site","pinned":false,"icon":"apps","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"stack","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"component","isClosable":true,"reorderEnabled":true,"title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D\" />","id":"%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D"}}],"width":100,"activeItemIndex":0}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}}}},{"id":"/.deco/blocks/vtex.json","name":"vtex","pinned":false,"icon":"apps","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"stack","width":33.333333333333336,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fvtex.json::Properties::list::Properties::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fvtex.json::Properties::list::Properties::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fvtex.json::Properties::list::Properties::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":33.333333333333336,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fvtex.json::Preview::world::Preview::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fvtex.json::Preview::world::Preview::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fvtex.json::Preview::world::Preview::%7B%7D"},"isClosable":true,"reorderEnabled":true}]},{"type":"stack","width":33.33333333333333,"isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fvtex.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fvtex.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fvtex.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"},"isClosable":true,"reorderEnabled":true}]}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2Fvtex.json::Properties::list::Properties::%7B%7D":{"name":"Properties","icon":"list","accepts":"function","render":"function","viewId":"Properties","id":"%2F.deco%2Fblocks%2Fvtex.json::Properties::list::Properties::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2Fvtex.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2Fvtex.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2Fvtex.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D":{"name":"JSON Properties","icon":"braces","accepts":"function","render":"function","viewId":"JSON Properties","id":"%2F.deco%2Fblocks%2Fvtex.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D","state":{"__signal":null}}}},{"id":"/.deco/blocks/pages-nao%2520veja-245574.json","name":"nao veja","pinned":true,"icon":"file","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"stack","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"component","isClosable":true,"reorderEnabled":true,"title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-nao%252520veja-245574.json::Preview::world::Preview::%7B%7D\" />","id":"%2F.deco%2Fblocks%2Fpages-nao%252520veja-245574.json::Preview::world::Preview::%7B%7D","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fpages-nao%252520veja-245574.json::Preview::world::Preview::%7B%7D"}}],"width":100,"activeItemIndex":0}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2Fpages-nao%252520veja-245574.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2Fpages-nao%252520veja-245574.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}}}},{"id":"/.deco/blocks/meu%20dashboard.json","name":"meu dashboard","pinned":true,"icon":"package","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[{"type":"row","isClosable":true,"reorderEnabled":true,"title":"","content":[{"type":"stack","isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Properties::list::Properties::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Properties::list::Properties::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Properties::list::Properties::%7B%7D"},"isClosable":true,"reorderEnabled":true}],"width":50},{"type":"stack","isClosable":true,"reorderEnabled":true,"title":"","activeItemIndex":0,"content":[{"id":"%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Preview::world::Preview::%7B%7D","title":"<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Preview::world::Preview::%7B%7D\" />","type":"component","componentName":"component","componentState":{"id":"%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Preview::world::Preview::%7B%7D"},"isClosable":true,"reorderEnabled":true}],"width":50}]}],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{"%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Properties::list::Properties::%7B%7D":{"name":"Properties","icon":"list","accepts":"function","render":"function","viewId":"Properties","id":"%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Properties::list::Properties::%7B%7D","state":{"__signal":null}},"%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Preview::world::Preview::%7B%7D":{"name":"Preview","icon":"world","accepts":"function","render":"function","viewId":"Preview","id":"%2F.deco%2Fblocks%2Fmeu%2520dashboard.json::Preview::world::Preview::%7B%7D","state":{"__signal":null}}}},{"id":"Space 51","name":"Space 51","pinned":false,"icon":"square-rounded","layout":{"settings":{"hasHeaders":true,"constrainDragToContainer":true,"reorderEnabled":true,"selectionEnabled":false,"popoutWholeStack":false,"blockedPopoutsThrowError":true,"closePopoutsOnUnload":true,"showPopoutIcon":false,"showMaximiseIcon":false,"showCloseIcon":false,"responsiveMode":"onload"},"dimensions":{"borderWidth":8,"minItemHeight":10,"minItemWidth":10,"headerHeight":40,"dragProxyWidth":300,"dragProxyHeight":200},"labels":{"close":"close","maximise":"maximise","minimise":"minimise","popout":"open in new window","popin":"pop in","tabDropdown":"additional tabs"},"content":[],"isClosable":true,"reorderEnabled":true,"title":"","openPopouts":[],"maximisedItemId":null},"tabs":{}},{"id":"Space 60","name":"Space 60","pinned":false,"icon":"square-rounded","layout":[],"tabs":{}}]}
+{
+  "list": [
+    {
+      "id": "dashboard",
+      "name": "Site Home",
+      "pinned": true,
+      "icon": "home",
+      "layout": [],
+      "tabs": {
+        "dashboard::Home::home::Home::%7B%7D": {
+          "name": "Home",
+          "icon": "home",
+          "render": "function",
+          "viewId": "Home",
+          "id": "dashboard::Home::home::Home::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Highlights",
+      "appsViews": []
+    },
+    {
+      "id": "pages",
+      "name": "Pages",
+      "pinned": true,
+      "icon": "files",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "pages::List::list::List::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "pages::List::list::List::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "pages::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "pages::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content",
+      "appsViews": []
+    },
+    {
+      "id": "sections",
+      "name": "Sections",
+      "pinned": true,
+      "icon": "block",
+      "layout": [],
+      "tabs": {
+        "sections::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "sections::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content",
+      "appsViews": []
+    },
+    {
+      "id": "collections",
+      "name": "Blog",
+      "pinned": true,
+      "icon": "article",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections::Blog::article::Blog::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections::Blog::article::Blog::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections::Blog::article::Blog::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections::Blog%20Items::article::Blog%20Items::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections::Blog%20Items::article::Blog%20Items::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections::Blog%20Items::article::Blog%20Items::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "collections::Blog::article::Blog::%7B%7D": {
+          "name": "Blog",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Blog",
+          "id": "collections::Blog::article::Blog::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "collections::Blog%20Items::article::Blog%20Items::%7B%7D": {
+          "name": "Blog Items",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Blog Items",
+          "id": "collections::Blog%20Items::article::Blog%20Items::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content",
+      "appsViews": []
+    },
+    {
+      "id": "releases",
+      "name": "Releases",
+      "pinned": true,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "releases::releases::rocket::releases::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-releases::releases::rocket::releases::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "releases::releases::rocket::releases::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "releases::releases::rocket::releases::%7B%7D": {
+          "name": "releases",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "releases",
+          "id": "releases::releases::rocket::releases::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content",
+      "appsViews": []
+    },
+    {
+      "id": "site-seo",
+      "name": "SEO",
+      "pinned": true,
+      "icon": "world-search",
+      "layout": [],
+      "tabs": {
+        "site-seo::Partial%20Form::pencil::Partial%20Form::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22seo%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fsite.json%5C%22%7D%22%7D": {
+          "name": "Partial Form",
+          "icon": "pencil",
+          "render": "function",
+          "viewId": "Partial Form",
+          "viewProps": {
+            "spaceId": "{\"path\":[\"seo\"],\"filepath\":\"/.deco/blocks/site.json\"}"
+          },
+          "id": "site-seo::Partial%20Form::pencil::Partial%20Form::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22seo%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fsite.json%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "site-seo::Preview::world::Preview::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fsite.json%22%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "viewProps": {
+            "spaceId": "/.deco/blocks/site.json"
+          },
+          "id": "site-seo::Preview::world::Preview::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2Fsite.json%22%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Advanced",
+      "appsViews": []
+    },
+    {
+      "id": "themes",
+      "name": "Themes",
+      "pinned": true,
+      "icon": "palette",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 33.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.33333333333333,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D": {
+          "name": "Theme Selector",
+          "icon": "palette",
+          "render": "function",
+          "viewId": "Theme Selector",
+          "id": "themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D": {
+          "name": "Theme Viewer",
+          "icon": "palette",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Theme Viewer",
+          "id": "themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D": {
+          "name": "Theme Preview",
+          "icon": "palette",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Theme Preview",
+          "id": "themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Advanced",
+      "appsViews": []
+    },
+    {
+      "id": "redirects",
+      "name": "Redirects",
+      "pinned": true,
+      "icon": "redirect",
+      "layout": [],
+      "tabs": {
+        "redirects::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "redirects::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Advanced",
+      "appsViews": []
+    },
+    {
+      "id": "loaders",
+      "name": "Loaders",
+      "pinned": true,
+      "icon": "block",
+      "layout": [],
+      "tabs": {
+        "loaders::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "loaders::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Advanced",
+      "appsViews": []
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "pinned": true,
+      "icon": "block",
+      "layout": [],
+      "tabs": {
+        "actions::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "actions::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Advanced",
+      "appsViews": []
+    },
+    {
+      "id": "segments",
+      "name": "Segments",
+      "pinned": true,
+      "icon": "users",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "segments::segments::experiment::segments::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-segments::segments::experiment::segments::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "segments::segments::experiment::segments::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "segments::segments::experiment::segments::%7B%7D": {
+          "name": "segments",
+          "icon": "experiment",
+          "render": "function",
+          "viewId": "segments",
+          "id": "segments::segments::experiment::segments::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Advanced",
+      "appsViews": []
+    },
+    {
+      "id": "apps",
+      "name": "Apps",
+      "pinned": true,
+      "icon": "apps",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "apps::Apps::apps::Apps::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-apps::Apps::apps::Apps::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "apps::Apps::apps::Apps::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "apps::Apps::apps::Apps::%7B%7D": {
+          "name": "Apps",
+          "icon": "apps",
+          "render": "function",
+          "viewId": "Apps",
+          "id": "apps::Apps::apps::Apps::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Advanced",
+      "appsViews": []
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "pinned": true,
+      "icon": "chart-bar",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "analytics::analytics::layout-grid::analytics::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-analytics::analytics::layout-grid::analytics::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "analytics::analytics::layout-grid::analytics::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "analytics::analytics::layout-grid::analytics::%7B%7D": {
+          "name": "analytics",
+          "icon": "layout-grid",
+          "render": "function",
+          "viewId": "analytics",
+          "id": "analytics::analytics::layout-grid::analytics::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "tags": [],
+      "category": "Management",
+      "appsViews": []
+    },
+    {
+      "id": "logs",
+      "name": "Logs",
+      "pinned": true,
+      "icon": "news",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "logs::logs::news::logs::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-logs::logs::news::logs::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "logs::logs::news::logs::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "logs::logs::news::logs::%7B%7D": {
+          "name": "logs",
+          "icon": "news",
+          "render": "function",
+          "viewId": "logs",
+          "id": "logs::logs::news::logs::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "tags": [],
+      "category": "Management",
+      "appsViews": []
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "pinned": true,
+      "icon": "adjustments-horizontal",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "settings::settings::adjustments-horizontal::settings::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-settings::settings::adjustments-horizontal::settings::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "settings::settings::adjustments-horizontal::settings::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "settings::domains::adjustments-horizontal::domains::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-settings::domains::adjustments-horizontal::domains::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "settings::domains::adjustments-horizontal::domains::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "settings::settings::adjustments-horizontal::settings::%7B%7D": {
+          "name": "settings",
+          "icon": "adjustments-horizontal",
+          "render": "function",
+          "viewId": "settings",
+          "id": "settings::settings::adjustments-horizontal::settings::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "settings::domains::adjustments-horizontal::domains::%7B%7D": {
+          "name": "domains",
+          "icon": "adjustments-horizontal",
+          "render": "function",
+          "viewId": "domains",
+          "id": "settings::domains::adjustments-horizontal::domains::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Management",
+      "appsViews": []
+    },
+    {
+      "id": "assets",
+      "name": "Assets",
+      "pinned": true,
+      "icon": "photo",
+      "layout": [],
+      "tabs": {
+        "assets::Assets::photo::Assets::%7B%7D": {
+          "name": "Assets",
+          "icon": "photo",
+          "render": "function",
+          "viewId": "Assets",
+          "id": "assets::Assets::photo::Assets::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content",
+      "appsViews": []
+    },
+    {
+      "id": "/.deco/blocks/pages-home-c4bcbfb771e9.json",
+      "name": "Home",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "experiments",
+      "name": "Experiments",
+      "pinned": true,
+      "icon": "experiment",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "experiments::experiments::experiment::experiments::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-experiments::experiments::experiment::experiments::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "experiments::experiments::experiment::experiments::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "experiments::experiments::experiment::experiments::%7B%7D": {
+          "name": "experiments",
+          "icon": "experiment",
+          "render": "function",
+          "viewId": "experiments",
+          "id": "experiments::experiments::experiment::experiments::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "tags": [
+        {
+          "label": "BETA",
+          "color": "positive"
+        }
+      ],
+      "category": "Advanced",
+      "appsViews": []
+    },
+    {
+      "id": "deco-records-space",
+      "name": "Records",
+      "pinned": true,
+      "icon": "database",
+      "layout": [],
+      "tabs": {
+        "deco-records-space::Deco%20Records::database::Deco%20Records::%7B%7D": {
+          "name": "Deco Records",
+          "icon": "database",
+          "render": "function",
+          "viewId": "Deco Records",
+          "id": "deco-records-space::Deco%20Records::database::Deco%20Records::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "tags": [
+        {
+          "label": "BETA",
+          "color": "positive"
+        }
+      ],
+      "category": "Content",
+      "appsViews": []
+    },
+    {
+      "id": "Publish",
+      "name": "Publish",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "Publish::Environment::rocket::Environment::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket::Environment::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "Publish::Environment::rocket::Environment::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "Publish::Environment::rocket::Environment::%7B%7D": {
+          "name": "Environment",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "Environment",
+          "id": "Publish::Environment::rocket::Environment::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Benefits%20-%2002.json",
+      "name": "Benefits - 02",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "component",
+                "width": 30,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBenefits%2520-%252002.json::Properties::list::Properties::%7B%7D\" />",
+                "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252002.json::Properties::list::Properties::%7B%7D",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252002.json::Properties::list::Properties::%7B%7D"
+                }
+              }
+            ],
+            "width": 100,
+            "activeItemIndex": 0
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FBenefits%2520-%252002.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252002.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20site%2Fsections%2FContent%2FBlogPosts.tsx.json",
+      "name": "BlogPosts.tsx",
+      "pinned": false,
+      "icon": "code",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 33.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.33333333333333,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": "error"
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D": {
+          "name": "AI Assistant",
+          "icon": "sparkle",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "AI Assistant",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FContent%252FBlogPosts.tsx.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Banner%20Grid%20-%2001.json",
+      "name": "Banner Grid - 01",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 30.44937794043323,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 36.21728872623344,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.33333333333333,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D": {
+          "name": "AI Assistant",
+          "icon": "sparkle",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "AI Assistant",
+          "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FBanner%2520Grid%2520-%252001.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "collections:8f960431015f",
+      "name": "Blog / Posts / 8f960431015f",
+      "pinned": false,
+      "icon": "article",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D": {
+          "name": "Blog / Posts / 8f960431015f",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Edit Blog Item",
+          "viewProps": {
+            "spaceId": "{\"path\":[\"post\"],\"filepath\":\"/.deco/blocks/collections%2Fblog%2Fposts%2F8f960431015f.json\"}"
+          },
+          "id": "collections%3A8f960431015f::Blog%20%2F%20Posts%20%2F%208f960431015f::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8f960431015f.json%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D": {
+          "name": "Blog Preview",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Blog Preview",
+          "viewProps": {
+            "spaceId": "{\"blockId\":\"collections/blog/posts/8f960431015f\"}"
+          },
+          "id": "collections%3A8f960431015f::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8f960431015f%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FProduct%2FProductShelf.tsx.json",
+      "name": "Preview /sections/Product/ProductShelf.tsx",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "width": 50,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::%2Fcomponents%2Fproduct%2FProductShelf.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fproduct%2FProductShelf.tsx%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::%2Fcomponents%2Fproduct%2FProductShelf.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fproduct%2FProductShelf.tsx%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::%2Fcomponents%2Fproduct%2FProductShelf.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fproduct%2FProductShelf.tsx%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::%2Fcomponents%2Fproduct%2FProductShelf.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fproduct%2FProductShelf.tsx%22%7D": {
+          "name": "/components/product/ProductShelf.tsx",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/components/product/ProductShelf.tsx"
+          },
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::%2Fcomponents%2Fproduct%2FProductShelf.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fproduct%2FProductShelf.tsx%22%7D",
+          "state": {
+            "__signal": "error"
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FProduct%252FProductShelf.tsx.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Benefits%20-%2001.json",
+      "name": "Benefits - 01",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 42.20491246616968,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 35.16026777360635,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 22.63481976022398,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": "error"
+          }
+        },
+        "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
+          "name": "JSON Properties",
+          "icon": "braces",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "JSON Properties",
+          "id": "%2F.deco%2Fblocks%2FBenefits%2520-%252001.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FImages%2FCarousel.tsx.json",
+      "name": "Preview /sections/Images/Carousel.tsx",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  },
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::%2Fcomponents%2Fui%2FBannerCarousel.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FBannerCarousel.tsx%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::%2Fcomponents%2Fui%2FBannerCarousel.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FBannerCarousel.tsx%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::%2Fcomponents%2Fui%2FBannerCarousel.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FBannerCarousel.tsx%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::%2Fcomponents%2Fui%2FBannerCarousel.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FBannerCarousel.tsx%22%7D": {
+          "name": "/components/ui/BannerCarousel.tsx",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/components/ui/BannerCarousel.tsx"
+          },
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FImages%252FCarousel.tsx.json::%2Fcomponents%2Fui%2FBannerCarousel.tsx::code::Code::%7B%22spaceId%22%3A%22%2Fcomponents%2Fui%2FBannerCarousel.tsx%22%7D",
+          "state": {
+            "__signal": "error"
+          }
+        }
+      }
+    },
+    {
+      "id": "collections:collections/blog/posts/6dad6eb23e38",
+      "name": "Blog / Posts / 6dad6eb23e38",
+      "pinned": false,
+      "icon": "article",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20%2F%20Posts%20%2F%206dad6eb23e38::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F6dad6eb23e38.json%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20%2F%20Posts%20%2F%206dad6eb23e38::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F6dad6eb23e38.json%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20%2F%20Posts%20%2F%206dad6eb23e38::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F6dad6eb23e38.json%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F6dad6eb23e38%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F6dad6eb23e38%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F6dad6eb23e38%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20%2F%20Posts%20%2F%206dad6eb23e38::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F6dad6eb23e38.json%5C%22%7D%22%7D": {
+          "name": "Blog / Posts / 6dad6eb23e38",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Edit Blog Item",
+          "viewProps": {
+            "spaceId": "{\"path\":[\"post\"],\"filepath\":\"/.deco/blocks/collections%2Fblog%2Fposts%2F6dad6eb23e38.json\"}"
+          },
+          "id": "collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20%2F%20Posts%20%2F%206dad6eb23e38::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F6dad6eb23e38.json%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null,
+            "value": null
+          }
+        },
+        "collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F6dad6eb23e38%5C%22%7D%22%7D": {
+          "name": "Blog Preview",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Blog Preview",
+          "viewProps": {
+            "spaceId": "{\"blockId\":\"collections/blog/posts/6dad6eb23e38\"}"
+          },
+          "id": "collections%3Acollections%2Fblog%2Fposts%2F6dad6eb23e38::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F6dad6eb23e38%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/site.json",
+      "name": "site",
+      "pinned": false,
+      "icon": "apps",
+      "layout": [],
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fsite.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fsite.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "{\"oid\":\"f1a3966cdc926e60cee45ac9c584f6d9d10c1330\",\"short\":\"f1a3966\",\"commit\":{\"message\":\"Release staging environment with 3 changes made by Cecilia Marques\\n\",\"parent\":[\"a527a96eb6320a13d7fb8c3dc61f7c2111652558\"],\"tree\":\"d4e61cb69359ea7560f2bc39b0b7d9b751e2d318\",\"author\":{\"name\":\"Guilherme Tavano\",\"email\":\"tavano@deco.cx\",\"timestamp\":1716486586,\"timezoneOffset\":0},\"committer\":{\"name\":\"Guilherme Tavano\",\"email\":\"tavano@deco.cx\",\"timestamp\":1716486586,\"timezoneOffset\":0}}}",
+      "name": "Release f1a3966",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%7B%22oid%22%3A%22f1a3966cdc926e60cee45ac9c584f6d9d10c1330%22%2C%22short%22%3A%22f1a3966%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%203%20changes%20made%20by%20Cecilia%20Marques%5Cn%22%2C%22parent%22%3A%5B%22a527a96eb6320a13d7fb8c3dc61f7c2111652558%22%5D%2C%22tree%22%3A%22d4e61cb69359ea7560f2bc39b0b7d9b751e2d318%22%2C%22author%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%22f1a3966cdc926e60cee45ac9c584f6d9d10c1330%22%2C%22short%22%3A%22f1a3966%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%203%20changes%20made%20by%20Cecilia%20Marques%5Cn%22%2C%22parent%22%3A%5B%22a527a96eb6320a13d7fb8c3dc61f7c2111652558%22%5D%2C%22tree%22%3A%22d4e61cb69359ea7560f2bc39b0b7d9b751e2d318%22%2C%22author%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%7B%22oid%22%3A%22f1a3966cdc926e60cee45ac9c584f6d9d10c1330%22%2C%22short%22%3A%22f1a3966%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%203%20changes%20made%20by%20Cecilia%20Marques%5Cn%22%2C%22parent%22%3A%5B%22a527a96eb6320a13d7fb8c3dc61f7c2111652558%22%5D%2C%22tree%22%3A%22d4e61cb69359ea7560f2bc39b0b7d9b751e2d318%22%2C%22author%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%7B%22oid%22%3A%22f1a3966cdc926e60cee45ac9c584f6d9d10c1330%22%2C%22short%22%3A%22f1a3966%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%203%20changes%20made%20by%20Cecilia%20Marques%5Cn%22%2C%22parent%22%3A%5B%22a527a96eb6320a13d7fb8c3dc61f7c2111652558%22%5D%2C%22tree%22%3A%22d4e61cb69359ea7560f2bc39b0b7d9b751e2d318%22%2C%22author%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%22f1a3966cdc926e60cee45ac9c584f6d9d10c1330%22%2C%22short%22%3A%22f1a3966%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%203%20changes%20made%20by%20Cecilia%20Marques%5Cn%22%2C%22parent%22%3A%5B%22a527a96eb6320a13d7fb8c3dc61f7c2111652558%22%5D%2C%22tree%22%3A%22d4e61cb69359ea7560f2bc39b0b7d9b751e2d318%22%2C%22author%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Guilherme%20Tavano%22%2C%22email%22%3A%22tavano%40deco.cx%22%2C%22timestamp%22%3A1716486586%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Desktop.json",
+      "name": "Desktop",
+      "pinned": false,
+      "icon": "flask",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FDesktop.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FDesktop.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FDesktop.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FDesktop.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FDesktop.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/My%20New%20Experiment.json",
+      "name": "My New Experiment",
+      "pinned": false,
+      "icon": "flask",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FMy%2520New%2520Experiment.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-My%2520New%2520Page-938191.json",
+      "name": "My New Page",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "component",
+                "width": 30,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Properties::list::Properties::%7B%7D\" />",
+                "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Properties::list::Properties::%7B%7D",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Properties::list::Properties::%7B%7D"
+                }
+              },
+              {
+                "type": "component",
+                "width": 70,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Preview::world::Preview::%7B%7D\" />",
+                "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Preview::world::Preview::%7B%7D",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Preview::world::Preview::%7B%7D"
+                }
+              }
+            ],
+            "width": 100,
+            "activeItemIndex": 1
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-My%252520New%252520Page-938191.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-new%2520page%2520stone-260612.json",
+      "name": "new page stone",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 32.1831869510665,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 67.8168130489335,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-new%252520page%252520stone-260612.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/FAQ%20-%2002.json",
+      "name": "FAQ - 02",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 18.747931037490233,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 31.114233708758444,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 29.97358970314205,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 20.16424555060926,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
+          "name": "JSON Properties",
+          "icon": "braces",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "JSON Properties",
+          "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252002.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "collections:6dad6eb23e38",
+      "name": "Blog / Posts / 6dad6eb23e38",
+      "pinned": false,
+      "icon": "article",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "/.deco/blocks/FAQ%20-%2003.json",
+      "name": "FAQ - 03",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 29.922393658806527,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 36.74427300786015,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.33333333333333,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D": {
+          "name": "AI Assistant",
+          "icon": "sparkle",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "AI Assistant",
+          "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::AI%20Assistant::sparkle::AI%20Assistant::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FFAQ%2520-%252003.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-Demo%2520Temperatura-151908.json",
+      "name": "Demo Temperatura",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-Demo%252520Temperatura-151908.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-search-2f446eadce44.json",
+      "name": "Search",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Cookie%20Consent%20-%2001.json",
+      "name": "Cookie Consent - 01",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252001.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Cookie%20Consent%20-%2002.json",
+      "name": "Cookie Consent - 02",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FCookie%2520Consent%2520-%252002.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Header%20-%2001.json",
+      "name": "Header - 01",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Vulcabras.json",
+      "name": "Vulcabras",
+      "pinned": false,
+      "icon": "flask",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FVulcabras.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FVulcabras.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FVulcabras.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FVulcabras.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FVulcabras.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FVulcabras.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FVulcabras.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FVulcabras.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FVulcabras.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FVulcabras.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    }
+  ]
+}

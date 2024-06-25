@@ -1,1 +1,12 @@
-{"__resolveType":"site/sections/Product/ProductShelf.tsx"}
+{
+  "__resolveType": "site/sections/Product/ProductShelf.tsx",
+  "products": [],
+  "layout": {
+    "numberOfSliders": {
+      "mobile": 1,
+      "desktop": 1
+    },
+    "headerAlignment": "center",
+    "headerfontSize": "Normal"
+  }
+}

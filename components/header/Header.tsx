@@ -24,6 +24,12 @@ export interface Buttons {
 }
 
 export interface Props {
+  /**
+   * @description The background color of the header
+   * @format color-input
+   * @default "#ffffff"
+   */
+  backgroundColor?: string;
   alerts?: string[];
 
   /** @title Search Bar */
@@ -68,6 +74,7 @@ function Header({
       url: "/",
     },
   ],
+  backgroundColor = "#ffffff",
   logo = {
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/986b61d4-3847-4867-93c8-b550cb459cc7",
@@ -90,7 +97,7 @@ function Header({
           searchbar={searchbar}
           platform={platform}
         >
-          <div class="bg-base-100 fixed w-full z-50">
+          <div class="fixed w-full z-50" style={{ backgroundColor }}>
             {alerts && alerts.length > 0 && <Alert alerts={alerts} />}
             <Navbar
               device={device}

@@ -358,7 +358,7 @@
                   "href": "/feminino",
                   "label": "Explore collection",
                   "title": "Your message here :)",
-                  "subTitle": "Visit our site and start building now"
+                  "subTitle": "Teste Safra "
                 },
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1"
@@ -493,11 +493,17 @@
               "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
             },
             "products": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "__resolveType": "shopify/loaders/ProductList.ts",
               "props": {
-                "sort": "price:desc",
-                "query": "camisa",
+                "sort": "price-descending",
+                "query": "a",
                 "count": 3
+              },
+              "filters": {
+                "tags": [],
+                "productTypes": [],
+                "productVendors": [],
+                "variantOptions": []
               }
             }
           },
@@ -673,6 +679,12 @@
           },
           {
             "__resolveType": "Footer - 04"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Safra.tsx"
+            }
           }
         ],
         "rule": {

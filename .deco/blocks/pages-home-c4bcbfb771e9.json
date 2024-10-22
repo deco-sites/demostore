@@ -156,11 +156,17 @@
               "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
             },
             "products": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+              "__resolveType": "shopify/loaders/ProductList.ts",
               "props": {
-                "sort": "price:desc",
-                "query": "camisa",
+                "sort": "price-descending",
+                "query": "a",
                 "count": 3
+              },
+              "filters": {
+                "tags": [],
+                "productTypes": [],
+                "productVendors": [],
+                "variantOptions": []
               }
             }
           },
@@ -339,7 +345,13 @@
           }
         ],
         "rule": {
-          "__resolveType": "My New Experiment"
+          "__resolveType": "website/matchers/location.ts",
+          "includeLocations": [
+            {
+              "coordinates": "-22.224867288279327,-42.34313495008149,100000"
+            }
+          ],
+          "excludeLocations": []
         }
       },
       {
@@ -353,17 +365,6 @@
             "arrows": false,
             "images": [
               {
-                "alt": "Feminino",
-                "action": {
-                  "href": "/feminino",
-                  "label": "Explore collection",
-                  "title": "Your message here :)",
-                  "subTitle": "Teste Safra "
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1"
-              },
-              {
                 "alt": "Masculino",
                 "action": {
                   "href": "/masculino",
@@ -373,6 +374,17 @@
                 },
                 "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
                 "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+              },
+              {
+                "alt": "Feminino",
+                "action": {
+                  "href": "/feminino",
+                  "label": "Explore collection",
+                  "title": "Your message here :)",
+                  "subTitle": "Teste Safra "
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1"
               },
               {
                 "alt": "Vestidos",

@@ -5,7 +5,7 @@ interface Props {
 }
 
 export default function ImageComponent({
-  image = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/6fe9404a-f69c-472a-b521-78f6c1f87326"
+  image = "https://decoims.com/demostore/7f4e6f52-0aa2-4d97-a1db-e8fe0ae44221/6fe9404a_6fe9404a-f69c-472a-b521-78f6c1f87326.png"
 }: Props) {
   return (
     <div class="w-full max-w-4xl mx-auto">

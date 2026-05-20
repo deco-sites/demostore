@@ -63,7 +63,7 @@ function Header({ alerts, searchbar, navItems = [
         url: "/",
     },
 ], backgroundColor = "#ffffff", logo = {
-    src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/986b61d4-3847-4867-93c8-b550cb459cc7",
+    src: "https://decoims.com/demostore/dd10279d-68f7-4c94-af00-bb01267a04d2/986b61d4_986b61d4-3847-4867-93c8-b550cb459cc7.png",
     width: 100,
     height: 16,
     alt: "Logo",

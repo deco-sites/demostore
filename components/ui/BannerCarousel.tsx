@@ -67,9 +67,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/demostore/42c3bb64-5d1c-40a6-87d4-5984b661a555/d057fc10_d057fc10-5616-4f12-8d4c-201bb47a81f5.png",
     },
     {
       alt: "/feminino",
@@ -80,9 +80,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/demostore/42c3bb64-5d1c-40a6-87d4-5984b661a555/d057fc10_d057fc10-5616-4f12-8d4c-201bb47a81f5.png",
     },
     {
       alt: "/feminino",
@@ -93,9 +93,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/demostore/42c3bb64-5d1c-40a6-87d4-5984b661a555/d057fc10_d057fc10-5616-4f12-8d4c-201bb47a81f5.png",
     },
   ],
   preload: true,

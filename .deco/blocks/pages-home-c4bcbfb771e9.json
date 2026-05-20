@@ -23,8 +23,8 @@
                   "title": "Your message here :)",
                   "subTitle": "Visit our site and start building now"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/32ecc2ba-76ac-4965-b914-c6fb4ede43b9"
+                "mobile": "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
+                "desktop": "https://decoims.com/demostore/a3cd3700-2710-4209-983e-59724088e80d/32ecc2ba_32ecc2ba-76ac-4965-b914-c6fb4ede43b9.jpg"
               },
               {
                 "alt": "Masculino",
@@ -34,8 +34,8 @@
                   "title": "VTEX Store",
                   "subTitle": "Visit our site and start building now:"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                "mobile": "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
+                "desktop": "https://decoims.com/demostore/42c3bb64-5d1c-40a6-87d4-5984b661a555/d057fc10_d057fc10-5616-4f12-8d4c-201bb47a81f5.png"
               },
               {
                 "alt": "Vestidos",
@@ -45,8 +45,8 @@
                   "title": "VTEX Store",
                   "subTitle": "Visit our site and start building now:"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                "mobile": "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
+                "desktop": "https://decoims.com/demostore/42c3bb64-5d1c-40a6-87d4-5984b661a555/d057fc10_d057fc10-5616-4f12-8d4c-201bb47a81f5.png"
               }
             ],
             "preload": true
@@ -108,9 +108,9 @@
               }
             ],
             "image": {
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/23be366c-fa07-4520-9338-387ce77acabb",
+              "mobile": "https://decoims.com/demostore/e141a168-ac26-43e0-9b7f-ed5d04d58b72/23be366c_23be366c-fa07-4520-9338-387ce77acabb.png",
               "altText": "a",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b79dcfc0-45b8-40c4-a3ba-310e66995529"
+              "desktop": "https://decoims.com/demostore/3495214d-ffaa-48cf-acc7-a45de05c6090/b79dcfc0_b79dcfc0-45b8-40c4-a3ba-310e66995529.png"
             }
           },
           {
@@ -181,25 +181,25 @@
             "list": [
               {
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/48d47888-6ac3-4eb4-8051-5643ed13492d",
+                "image": "https://decoims.com/demostore/2a26a334-c33b-4e03-96db-ffb7d91a182b/48d47888_48d47888-6ac3-4eb4-8051-5643ed13492d.jpg",
                 "label": "Your Collection",
                 "buttonText": "Explore collection"
               },
               {
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/6d7473a6-b5e6-4498-8794-91a336a38da7",
+                "image": "https://decoims.com/demostore/ab45bc4f-9bab-4a88-83fb-fb137f0faab1/6d7473a6_6d7473a6-b5e6-4498-8794-91a336a38da7.jpg",
                 "label": "Your Collection",
                 "buttonText": "Explore collection"
               },
               {
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1",
+                "image": "https://decoims.com/demostore/6a9e6dae-82a9-44e0-a67d-98301882682f/d9d6fdcd_d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1.jpg",
                 "label": "Your Collection",
                 "buttonText": "Explore collection"
               },
               {
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/b82322f6-73ed-44cb-9c21-d9549c9dbcb1",
+                "image": "https://decoims.com/demostore/f4c06878-dd65-4ede-8fa6-51a829530e27/b82322f6_b82322f6-73ed-44cb-9c21-d9549c9dbcb1.jpg",
                 "label": "Your Collection",
                 "buttonText": "Explore collection"
               }
@@ -212,7 +212,7 @@
             "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
             "image": {
               "alt": "Collection Image",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/165c770b-cbbc-48c0-81ad-c732d527c77c",
+              "src": "https://decoims.com/demostore/106a08ee-dce4-4183-b474-76dd907b64a8/165c770b_165c770b-cbbc-48c0-81ad-c732d527c77c.png",
               "href": "/feminino"
             },
             "section": {
@@ -315,7 +315,7 @@
                 "alt": "Item of the Summer",
                 "date": "January 15, 2024",
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/4618a387-1347-4146-93d3-204ab061f360",
+                "image": "https://decoims.com/demostore/6e9184fa-b618-40f8-b35b-47b5a48b1286/4618a387_4618a387-1347-4146-93d3-204ab061f360.jpg",
                 "label": "Item of the Summer",
                 "author": "deco.cx",
                 "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
@@ -324,7 +324,7 @@
                 "alt": "Item of the Summer",
                 "date": "January 15, 2024",
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d4cd5aa8-09d1-4e81-a82f-834c57548844",
+                "image": "https://decoims.com/demostore/304691f5-ffaa-4edd-9602-df6f59d5e5f8/d4cd5aa8_d4cd5aa8-09d1-4e81-a82f-834c57548844.jpg",
                 "label": "Item of the Summer",
                 "author": "deco.cx",
                 "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
@@ -333,7 +333,7 @@
                 "alt": "Item of the Summer",
                 "date": "January 15, 2024",
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d811fecd-be01-427a-8b8a-2b95f6fe9409",
+                "image": "https://decoims.com/demostore/bba7c3c3-34fb-42cc-98cd-295720e4ed20/d811fecd_d811fecd-be01-427a-8b8a-2b95f6fe9409.jpg",
                 "label": "Item of the Summer",
                 "author": "deco.cx",
                 "description": "Lorem ipsum dolor sit amet consectetur.  Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
@@ -372,8 +372,8 @@
                   "title": "VTEX Store",
                   "subTitle": "Visit our site and start building now:"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                "mobile": "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
+                "desktop": "https://decoims.com/demostore/42c3bb64-5d1c-40a6-87d4-5984b661a555/d057fc10_d057fc10-5616-4f12-8d4c-201bb47a81f5.png"
               },
               {
                 "alt": "Feminino",
@@ -383,8 +383,8 @@
                   "title": "Your message here :)",
                   "subTitle": "Teste Safra "
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1"
+                "mobile": "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
+                "desktop": "https://decoims.com/demostore/6a9e6dae-82a9-44e0-a67d-98301882682f/d9d6fdcd_d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1.jpg"
               },
               {
                 "alt": "Vestidos",
@@ -394,8 +394,8 @@
                   "title": "VTEX Store",
                   "subTitle": "Visit our site and start building now:"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                "mobile": "https://decoims.com/demostore/117f9c0d-026f-4552-817d-4d720d5bb6ee/c007e481_c007e481-b1c6-4122-9761-5c3e554512c1.png",
+                "desktop": "https://decoims.com/demostore/42c3bb64-5d1c-40a6-87d4-5984b661a555/d057fc10_d057fc10-5616-4f12-8d4c-201bb47a81f5.png"
               }
             ],
             "preload": true
@@ -457,9 +457,9 @@
               }
             ],
             "image": {
-              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/23be366c-fa07-4520-9338-387ce77acabb",
+              "mobile": "https://decoims.com/demostore/e141a168-ac26-43e0-9b7f-ed5d04d58b72/23be366c_23be366c-fa07-4520-9338-387ce77acabb.png",
               "altText": "a",
-              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b79dcfc0-45b8-40c4-a3ba-310e66995529"
+              "desktop": "https://decoims.com/demostore/3495214d-ffaa-48cf-acc7-a45de05c6090/b79dcfc0_b79dcfc0-45b8-40c4-a3ba-310e66995529.png"
             }
           },
           {
@@ -530,25 +530,25 @@
             "list": [
               {
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/48d47888-6ac3-4eb4-8051-5643ed13492d",
+                "image": "https://decoims.com/demostore/2a26a334-c33b-4e03-96db-ffb7d91a182b/48d47888_48d47888-6ac3-4eb4-8051-5643ed13492d.jpg",
                 "label": "Your Collection",
                 "buttonText": "Explore collection"
               },
               {
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/6d7473a6-b5e6-4498-8794-91a336a38da7",
+                "image": "https://decoims.com/demostore/ab45bc4f-9bab-4a88-83fb-fb137f0faab1/6d7473a6_6d7473a6-b5e6-4498-8794-91a336a38da7.jpg",
                 "label": "Your Collection",
                 "buttonText": "Explore collection"
               },
               {
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1",
+                "image": "https://decoims.com/demostore/6a9e6dae-82a9-44e0-a67d-98301882682f/d9d6fdcd_d9d6fdcd-6867-4000-b3f9-d8ef6c5922d1.jpg",
                 "label": "Your Collection",
                 "buttonText": "Explore collection"
               },
               {
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/b82322f6-73ed-44cb-9c21-d9549c9dbcb1",
+                "image": "https://decoims.com/demostore/f4c06878-dd65-4ede-8fa6-51a829530e27/b82322f6_b82322f6-73ed-44cb-9c21-d9549c9dbcb1.jpg",
                 "label": "Your Collection",
                 "buttonText": "Explore collection"
               }
@@ -561,7 +561,7 @@
             "__resolveType": "site/sections/Product/ShelfWithImage.tsx",
             "image": {
               "alt": "Collection Image",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/165c770b-cbbc-48c0-81ad-c732d527c77c",
+              "src": "https://decoims.com/demostore/106a08ee-dce4-4183-b474-76dd907b64a8/165c770b_165c770b-cbbc-48c0-81ad-c732d527c77c.png",
               "href": "/feminino"
             },
             "section": {
@@ -664,7 +664,7 @@
                 "alt": "Item of the Summer",
                 "date": "January 15, 2024",
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/4618a387-1347-4146-93d3-204ab061f360",
+                "image": "https://decoims.com/demostore/6e9184fa-b618-40f8-b35b-47b5a48b1286/4618a387_4618a387-1347-4146-93d3-204ab061f360.jpg",
                 "label": "Item of the Summer",
                 "author": "deco.cx",
                 "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
@@ -673,7 +673,7 @@
                 "alt": "Item of the Summer",
                 "date": "January 15, 2024",
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d4cd5aa8-09d1-4e81-a82f-834c57548844",
+                "image": "https://decoims.com/demostore/304691f5-ffaa-4edd-9602-df6f59d5e5f8/d4cd5aa8_d4cd5aa8-09d1-4e81-a82f-834c57548844.jpg",
                 "label": "Item of the Summer",
                 "author": "deco.cx",
                 "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
@@ -682,7 +682,7 @@
                 "alt": "Item of the Summer",
                 "date": "January 15, 2024",
                 "href": "/",
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/d811fecd-be01-427a-8b8a-2b95f6fe9409",
+                "image": "https://decoims.com/demostore/bba7c3c3-34fb-42cc-98cd-295720e4ed20/d811fecd_d811fecd-be01-427a-8b8a-2b95f6fe9409.jpg",
                 "label": "Item of the Summer",
                 "author": "deco.cx",
                 "description": "Lorem ipsum dolor sit amet consectetur.  Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "

@@ -1,14 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/778bef27-d120-40d9-8104-15347488b24e",
+    "image": "https://decoims.com/demostore/f5c3c77a-c13e-4957-ab86-d59a0ac83169/778bef27_778bef27-d120-40d9-8104-15347488b24e.png",
     "title": "This title also!",
     "jsonLDs": [],
     "noIndexing": false,
     "titleTemplate": "%s | deco.cx",
     "descriptionTemplate": "%s | Deco.cx",
     "description": "This is fully editable",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7925/a4e145f9-858d-48ba-a849-53df70a8fb49"
+    "favicon": "https://decoims.com/demostore/e53026cf-e7e9-4126-8a90-eb5a7c346826/a4e145f9_a4e145f9-858d-48ba-a849-53df70a8fb49.png"
   },
   "theme": {
     "__resolveType": "Fashion theme"
